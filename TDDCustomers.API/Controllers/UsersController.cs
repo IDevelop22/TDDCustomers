@@ -5,7 +5,7 @@ using TDDCustomers.API.Services;
 namespace TDDCustomers.API.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("[controller]")] 
 public class UsersController : ControllerBase
 {
     private readonly IUserSevice _userSevice;
